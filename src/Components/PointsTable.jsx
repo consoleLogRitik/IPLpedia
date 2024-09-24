@@ -24,7 +24,7 @@ function PointsTable() {
   return (
     <>
       <h1 className='text-4xl flex w-full justify-center mt-8 font-bold text-lime-800'>
-        Final Points Table for Season {selectedYear}
+        Points Table for Season {selectedYear}
       </h1>
       <div className='flex justify-center m-8'>
         <div className='overflow-x-auto w-full max-w-6xl'>

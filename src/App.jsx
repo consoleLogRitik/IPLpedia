@@ -1,7 +1,7 @@
 import { useState,useEffect } from 'react'
 import Navigation from './Components/Navigation'
 import { Outlet } from 'react-router-dom'
-import Footer from './Components/footer' 
+import Footer from './Components/Footer' 
 import { CompareContext } from './Contexts/CompareContext'
 function App() {
   const [team1, setTeam1] = useState('');
