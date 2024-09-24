@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from './logo.png';
+
 
 function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +10,6 @@ function Navigation() {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
-          <img src={logo} className="w-16 h-16" alt="Logo" />
           <h1 className="text-3xl font-bold text-lime-500 ml-4">IPLpedia</h1>
         </div>
 

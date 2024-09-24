@@ -1,4 +1,4 @@
-import background from './lbg.jpeg';
+import background from '../assets/lbg.jpeg';
 import * as React from 'react';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
