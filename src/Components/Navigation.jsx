@@ -26,7 +26,10 @@ function Navigation() {
         </div>
 
         {/* Links - Collapsed on small screens */}
-        <div className={`md:flex flex-col md:flex-row md:items-center md:gap-6 gap-4 absolute md:static top-full left-0 w-full md:w-auto bg-black md:bg-transparent transition-all duration-300 ease-in-out ${isOpen ? 'block' : 'hidden'} md:block`}>
+        <div
+        onClick={() => setIsOpen(!isOpen)}
+
+         className={` duration-1000 md:flex flex-col md:flex-row md:items-center md:gap-6 gap-4 absolute md:static top-full left-0 w-full md:w-auto bg-black md:bg-transparent transition-all duration-300 ease-in-out ${isOpen ? 'block' : 'hidden'} md:block`}>
           <Link to="/" className="block text-md font-semibold py-2 px-4 hover:bg-lime-500 rounded-md">Home</Link>
           <Link to="/teams" className="block text-md font-semibold py-2 px-4 hover:bg-lime-500 rounded-md">Teams</Link>
           <Link to="/season-stats" className="block text-md font-semibold py-2 px-4 hover:bg-lime-500 rounded-md">Season Stats</Link>
